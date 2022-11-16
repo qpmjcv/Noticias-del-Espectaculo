@@ -1,0 +1,228 @@
+:root{
+  --color-h1:  rgb(38, 38, 174);
+  --color-fondo-html:  rgb(126, 185, 189);
+  --color-header:  rgb(126, 185, 189);
+  --color-main: lightcyan;
+  --color-sidebar:  cadetblue;
+  --color-footer:  lightskyblue;
+  --color-card:  rgb(153, 228, 223)
+}
+
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: var(--color-fondo-html);
+}
+  
+header{
+  background-color: var(--color-header);
+     
+}
+
+.div-espacio {
+  height: 9vh;
+}
+
+.nav-img{
+  max-height: 75px;
+}
+
+form{
+  padding: 5px;
+}
+
+body {
+  background-color: rgb(205, 228, 228);
+  padding-left: 10px;
+}
+
+h1 {
+  color: var(--color-h1);
+  text-align: center;
+  z-index: 92;
+  padding: 15px;
+  
+}
+
+h2 {
+  color: darkblue;
+  background-color: rgba(177, 177, 177, 0.37);
+  text-align: center;
+}
+
+h3{
+  background-color: rgba(53, 89, 119, 0.443);
+  color: lightcyan;
+  font-size: 1.2em;
+  padding: 3px 0px 8px 0px;
+  
+}
+
+ul{
+  background-color: rgb(159, 236, 236);
+  border: solid 3px cadetblue;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 15px 25px 15px 25px;
+  font-size: large;
+}
+
+hr{
+  border: solid 2px whitesmoke;
+  box-shadow: 0px 5px 10px 0px;
+}
+
+.espacio{
+  height: 100px;
+}
+
+#separador{
+  width: 90%;
+  height: 50px;
+  
+}
+
+.formularios {
+  border-radius: 8px;
+}
+
+.foto-guepardo{
+  margin-top: 25px;
+}
+
+.paralax {
+ background-image: url(//assets/img/Banner.jpg);
+ max-height: 400px;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.card-img-overlay {
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+span{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#flecha {
+  display: inline-block;
+  padding-right: 50px;
+  height: 75px;
+  position: absolute;
+  margin-left: 88%;
+  transition: all 0.5s;
+}
+
+#flecha:hover{
+  transform: scale(1.2);
+}
+
+
+.sidebar{
+  height: auto;
+  width: 99%;
+  margin-bottom: 5px;
+}
+
+.sidebar-container{
+  width:29%;
+  height: auto;
+  background-color: var(--color-sidebar);
+  text-align: center;
+  padding: 5px;
+}
+
+.sidebarimg{
+  
+  width: 90%;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.main{
+  width: 70%;
+  margin-top: 3%;
+  height: auto;
+  background-color: var(--color-main);
+}
+
+
+.card {
+  width: 280px;
+  background-color: var(--color-card);
+  margin: 20px ;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px 0px black;
+  filter: grayscale(0.5);
+  transition: all .5s;
+  border: solid 3px rgb(98, 156, 152);
+  align-items: center;
+  
+}
+
+.card-body{
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.card-img{
+  
+  width: 100%;
+  object-fit:contain;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+
+iframe{
+  padding: 10px;
+}
+
+footer{
+  background-color: lightblue;
+  color:aliceblue;
+  text-align: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  
+  
+}
+
+
+.img-footer{
+  height: 65px;
+  border-radius: 50%;
+  margin: 0px 30px 0px 30px ;
+  box-shadow: black 3px 5px 10px 0px;
+  
+}
+
+.redes img{
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 50px;
+    box-shadow: 0px 5px 10px 0px black;
+  
+}
+
+#ulsection{
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+}
+
